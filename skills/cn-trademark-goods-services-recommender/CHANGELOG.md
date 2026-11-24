@@ -4,6 +4,7 @@
 
 - 迁入“知产实务工作台 · 实务技能”独立仓库，统一场景展示名称并保持技术 ID。
 - 添加 [MIT 许可证](LICENSE) 和 [随包资料说明](NOTICE.md)。
+- 优化 [SKILL.md](SKILL.md)、[方法学](references/three_round_methodology.md) 与 [README.md](README.md)：明确在推荐目标类似群与类别后，默认应将单类 10 个具体商品/服务名额用满，并在 [evals.json](evals/evals.json) 新增对应评测用例。
 
 ## [0.1.0] - 2026-11-04
 

@@ -4,6 +4,11 @@
 
 ## 已完成
 
+### 2026-11-24 默认用满单类 10 项商品/服务名额规范
+- 更新 [入口](SKILL.md)、[方法学](references/three_round_methodology.md) 与 [使用说明](README.md)，明确推荐目标类似群与类别后，默认应将单类 10 个具体商品/服务名额用满（目标群跨分段补充 -> 同大类相邻类似群防御性补充）。
+- 在 [评测用例](evals/evals.json) 新增用例 3，用于验证默认选满 10 项的行为。
+- 离线验收 `python -B -S -X utf8 scripts/verify.py` 通过。
+
 ### 2026-11-04 迁移验证
 - 问题：确认独立技能迁入后离线数据完整，选类校验和申报表导出可运行。
 - 范围：[入口](SKILL.md)、[使用说明](README.md)、[测试](tests/test_recommender.py)、[数据清单](data/manifest.json) 和 [导出规范](references/export_template_spec.md)。
