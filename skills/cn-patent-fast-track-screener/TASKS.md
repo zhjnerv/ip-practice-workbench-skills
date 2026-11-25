@@ -4,6 +4,10 @@
 
 ## 已完成
 
+### 2026-11-25 补充技能触发词
+- 在 [入口](SKILL.md) `description` 中补充“预审判断”“快审判断”触发问法。
+- 离线验收 `python -B -S -X utf8 scripts/verify.py` 通过。
+
 ### 2026-11-04 迁移验证
 - 问题：确认独立技能迁入后资源齐全、运行不依赖原工作区。
 - 范围：[入口](SKILL.md)、[使用说明](README.md)、[测试](tests/test_screener.py) 和 [数据来源说明](references/data_sources.md)。

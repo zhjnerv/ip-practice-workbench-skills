@@ -6,6 +6,7 @@
 
 - 优化 `cn-office-action-prior-art-collector` 技能的对比文件清单台账规范：默认台账文件名优先使用专利申请号或专利名称（不使用我方案号），正文中案号置于「案卷基础信息」末尾。
 - 优化 `cn-trademark-goods-services-recommender` 技能的商品/服务推荐规则：推荐目标类似群与类别后，默认将单类 10 个具体商品/服务名额用满。
+- 为 `cn-patent-fast-track-screener` 补充“预审判断”“快审判断”触发词，为 `cn-trademark-goods-services-recommender` 补充“商标商品选择”“商品服务推荐”触发词。
 
 ## 首次公开（2026-11-06）
 
